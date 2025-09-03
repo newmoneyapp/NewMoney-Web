@@ -7,7 +7,7 @@ header{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid 
 .brand{display:flex;gap:10px;align-items:center}.brand__logo{width:36px;height:36px;border-radius:10px;background:linear-gradient(135deg,var(--nm-primary),#2e6e93);box-shadow:var(--shadow-sm)}.brand__name{font-weight:700;letter-spacing:.2px}
 .nav__links{display:flex;gap:22px;align-items:center}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;border-radius:12px;border:1px solid transparent;padding:10px 16px;font-weight:600;cursor:pointer;transition:.2s ease}
-.btn--primary{background:var(--nm-primary);color:#fff}.btn--primary:hover{background:var(--nm-primary-700)}.btn--ghost{border-color:var(--nm-border);color:var(--nm-primary)}
+.btn--primary{background:var(--nm-primary);color:#fff}.btn--primary:hover{background:var(--nm-primary-700)}.btn--ghost{border-color:var(--nm-border);color:white}.btn--ghost-2{border-color:var(--nm-border);color:var(--nm-primary);}
 .badge{display:inline-block;padding:6px 10px;border-radius:999px;font-size:12px;background:rgba(92,201,112,.12);color:#0b5e28;border:1px solid rgba(92,201,112,.3)}
 .hero{background:radial-gradient(1200px 600px at 80% -20%, #2e6e93 0%, transparent 55%), var(--nm-bg);color:#eaf4fb}
 .hero__grid{display:grid;grid-template-columns:1.2fr .8fr;gap:36px;padding:64px 0}
